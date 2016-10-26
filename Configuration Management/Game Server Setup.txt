@@ -1,0 +1,94 @@
+Golang Server
+
+Download Go
+	cd /tmp
+	curl -LO https://storage.googleapis.com/golang/go1.7.linux-amd64.tar.gz
+	sha256sum go1.7*.tar.gz
+
+Installing Go
+	sudo tar -C /usr/local -xvzf go1.7.linux-amd64.tar.gz
+	mkdir -p ~/Game/{bin,pkg,src}
+
+Set paths for GO
+	sudo nano /etc/profile.d/path.sh
+		
+		add to end of file:
+			export PATH=$PATH:/usr/local/go/bin
+
+	sudo nano ~/.bash_profile
+
+		add to end of path:
+			export GOBIN="$HOME/projects/bin"
+			export GOPATH="$HOME/projects/src"
+			
+	source /etc/profile && source ~/.bash_profile
+	
+Creating a program
+	sudo nano ~/Game/src/hello.go
+	
+
+package main
+
+import (
+        "database/sql"
+        "fmt"
+        _ "github.com/lib/pq"
+        "bufio"
+        "os"
+        "strings"
+)
+
+const (
+        DB_USER         = "postgres"
+        DB_PASSWORD     = "letmein"
+        DB_NAME         = "crossingdatabase"
+        DB_HOST         = "10.1.144.90"
+        DB_PORT         = "5432"
+)
+
+func login(s string, db *sql.DB) bool{
+        queryStmt, err := db.Prepare("Select count(*) FROM \"users\" WHERE USER_NAME=$1")
+        checkErr(err)
+        rows, err := queryStmt.Query(s)
+        checkErr(err)
+        defer rows.Close()
+        rows.Next()
+        var count int
+        err = rows.Scan(&count)
+        checkErr(err)
+        if count >= 1 {
+                return true
+        } else {
+                return false
+        }
+}
+
+func main() {
+        dbinfo := fmt.Sprintf("user=%s password=%s host=%s port=%s dbname=%s sslmode=disable",
+                                DB_USER, DB_PASSWORD, DB_HOST, DB_PORT, DB_NAME)
+        db, err := sql.Open("postgres", dbinfo)
+        checkErr(err)
+        defer db.Close()
+
+        reader := bufio.NewReader(os.Stdin)
+        fmt.Println("Check for user: ")
+
+        input, _ := reader.ReadString('\n')
+        t := strings.TrimSpace(input)
+
+        fmt.Println("# Checking if user " + t + " exists")
+        user_exists := login(t, db)
+        if user_exists {
+                fmt.Println(t +" exists")
+        } else {
+                fmt.Println(t + " does not exist")
+        }
+
+}
+
+func checkErr(err error) {
+        if err != nil {
+                panic(err)
+        }
+}
+

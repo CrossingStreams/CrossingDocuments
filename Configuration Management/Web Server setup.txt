@@ -1,0 +1,181 @@
+Web Server initialization:
+
+	// secure server
+	// https://www.linode.com/docs/security/securing-your-server
+	sudo yum update
+	
+	// disallow root ssh access
+	sudo nano /etc/ssh/sshd_config
+	
+		PermitRootLogin no
+		
+	echo 'AddressFamily inet' | sudo tee -a /etc/ssh/sshd_config
+
+	// install fail2ban 3 failed logins and ip ban
+	// https://www.linode.com/docs/security/using-fail2ban-for-security
+		sudo yum install epel-release
+		sudo yum install fail2ban 
+		yum install sendmail
+		systemctl start fail2ban
+		systemctl enable fail2ban
+		systemctl start sendmail
+		systemctl enable sendmail
+		
+		// Config Fail2Ban
+		sudo nano jail.conf	
+			
+			backend = systemd
+			destemail = Monitoring email address here
+			sender = (result from running % sendmail -t your@email.com)
+			
+	// INSTALL LAPP WEB SERVICE
+
+		// install apache
+			sudo yum install httpd
+			sudo systemctl start httpd.service	(start service)
+			sudo systemctl enable httpd.service (start on reboot)
+	
+			cp /etc/httpd/conf/httpd.conf ~/httpd.conf.backup
+			sudo nano httpd.conf
+		
+			// edit or add the folliwng
+				KeepAlive Off
+				<IfModule prefork.c>
+					StartServers        4
+					MinSpareServers     20
+					MaxSpareServers     40
+					MaxClients          200
+					MaxRequestsPerChild 4500
+				</IfModule>	
+				
+			// config name-based Virtual hosts
+			sudo nano /etc/httpd/conf.d/vhosts.conf
+				
+			// edit or add the following
+				NameVirtualHost *:80
+        		<VirtualHost *:80>
+					ServerAdmin webmaster@c470dcentos7-2016.cis.okanagan.bc.ca
+					DocumentRoot /var/www/html/cosc470dcentos-2016.cis.okanagan.bc.ca
+					ServerName c470dcentos-2016.cis.okanagan.bc.ca
+					ErrorLog logs/cosc470dcentos-2016.cis.okanagan.bc.ca-error_log
+					CustomLog logs/cosc470dcentos-2016.cis.okanagan.bc.ca-access_log common
+				</VirtualHost>
+
+			// create test html index.html
+			cd /var/www/html
+			sudo mkdir COSC470DCentOS-2016.cis.okanagan.bc.ca
+			cd COSC470DCentOS-2016.cis.okanagan.bc.ca
+			echo "This is a test." > index.html
+			restorecon -R c470dcentos7-2016.cis.okanagan.bc.ca
+
+			
+			// check validity of configuration
+			apachectl configtest (Syntax 0K)
+			apachectl restart
+			httpd -D DUMP_VHOSTS
+			
+			// Test
+			yum install -y elinks
+			elinks http://cosc470dcentos-2016.cis.okanagan.bc.ca
+
+			//ssl_mode
+			sudo yum install mod_ssl
+			sudo cd /etc/httpd/conf.d; mv ssl.conf ssl.conf2
+			cd /etc/apache2/
+			sudo mkdir certs
+			cd ./certs
+			sudo openssl req -new -x509 -nodes -days 365 -out server.crt -keyout server.key
+			
+				CA
+				./R6?AxV#W"6=tW7
+				british columbia
+				Kelowna
+				Crossing streams
+				Development
+				:c470dcentos7-2016.cis.okanagan.bc.ca
+				webmaster@:c470dcentos7-2016.cis.okanagan.bc.ca
+				
+			sudo openssl rsa -des3 -in server.key -out server.key
+			
+				passphrase = ./R6?AxV#W"6=tW7
+				
+			sudo yum install mod_security
+				
+				
+			// open port 80
+			sudo firewall-cmd --zone=public --add-port=80/tcp --permanent
+			sudo firewall-cmd --reload
+	
+		// install postgresql
+		sudo yum install postgresql-server postgresql-contrib
+		sudo postgresql-setup initdb
+		sudo nano /var/lib/pgsql/data/pg_hba.conf
+	
+			// edit
+			host    all             all             127.0.0.1/32            md5
+			host    all             all             ::1/128                 md5
+	
+			sudo systemctl start postgresql
+			sudo systemctl enable postgresql
+			sudo -i -u postgres
+			createuser --interactive (bwar, bspel, mdunw, cfran, datki)
+			createdb CrossingDatabase
+			psql -d CrossingDatabase (to access database)
+			
+			creat user web_cross password 'e6|Q6%w"*j1>!4n'
+			grant all privileges on database 'CrossingDatabase' to web_cross
+
+			creat user game_cross password '7)Jd|- G=U/_s:W'
+			grant all privileges on database 'CrossingDatabase' to game_cross
+			\q
+			exit
+		
+		// PHP INSTALL
+			sudo yum install php php-pear
+			sudo yum install php-pgsql
+	
+	
+			// edit /etc/php.ini
+			error_reporting = E_COMPILE_ERROR|E_RECOVERABLE_ERROR|E_ERROR|E_CORE_ERROR
+			error_log = /var/log/php/error.log
+			max_input_time = 30
+	
+	
+			sudo chown apache /var/log/php
+			sudo mkdir /var/log/php
+	
+	// install web panel
+		vi /etc/yum.repos.d/webmin.repo
+			
+			[Webmin]
+			name=Webmin Distribution Neutral
+			#baseurl=http://download.webmin.com/download/yum
+			mirrorlist=http://download.webmin.com/download/yum/mirrorlist
+			enabled=1
+		
+		// install webmin
+		sudo rpm --import http://www.webmin.com/jcameron-key.asc
+		sudo yum check-update
+		sudo yum install webmin -y
+		chkconfig webmin on
+		service webmin start
+		sudo firewall-cmd --add-port=10000/tcp
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
