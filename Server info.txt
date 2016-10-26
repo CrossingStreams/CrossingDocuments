@@ -1,0 +1,24 @@
+10.1.144.90 (Web Server)
+	DNS: COSC470DCentOS-2016.cis.okanagan.bc.ca
+	Username:	Root
+	Password: 	3_4b{<H<35gG2ue
+	
+	Apache (http://10.1.144.90/)
+		/var/www/html (directory root for website)
+			- index.php is main landing page
+			
+	Postgresql (10.1.144.90:5432)
+    Username: postgres
+    Password: letmein
+  
+	Webmin (http://10.1.144.90:10000/)
+		Username:	Root
+		Password: 	3_4b{<H<35gG2ue
+		
+10.1.144.91 (Game Server)
+	DNS: COSC470ACentOS-2016.cis.okanagan.bc.ca
+	Username: 	Root
+	Password: 	<S3LU!4*IL5azZl
+	
+	Crossing Streams Game Server:
+	IP/Port: 10.1.144.91:25565
