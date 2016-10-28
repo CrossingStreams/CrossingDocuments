@@ -1,0 +1,89 @@
+a.	SCRUM meeting ( 10 minutes)
+	i.	Three Questions: - (1) Task complete since last Scrum meeting; (2) Tasks plan for the next scrum; (3 obstacles if any.  (Be sure to invite me or TA)
+		-	(You can delay (2) to the end of the lab)..
+		
+		(completed 15 mins)
+		
+b.	Review the current Sprint Back Log chart (10 minutes)
+	i.	Assign notes/minutes taker and update
+		
+		AI estimates somewhat off.
+		Test based on functionality not timing
+		Notes taker - Ben Ward
+		
+		(completed 10m)
+	
+	ii.	Plan for the “trouble” items and commitment.
+		
+		Architecture diagrams (everybody has committed to working on them)
+			- we need to communicate more effectively (UML diagrams to describe behaviour)
+		Acceptance criteria needs to be refined for Sprint 2
+		
+		(completed 10m)
+	
+c.	Things (Issues) what should have been included in Sprint 1 plan and missing ( eg Technical Debt Items…) (15 mins)
+	i.	BUILD/CI
+		
+		Setting up CI (jenkins for sprint 2) we are manually building now.
+		CI diagram to be completed for next sprint.
+		Aquire CI server from Youry.
+		
+		(Completed 5 mins)
+	
+	ii.	Architectural diagram (UML) Road Map
+	
+		Ben will share to everyone architecture diagram.
+		(Completed 10m)
+	
+	iii.	Risk table…
+	
+		Corey has a risk table from last year and we will work on implementing it for our project.
+		Keep the risks high level
+	
+		*+(Completed 5mins)
+	
+	iv.	Define “Close” mechanism in JIRA 
+		"Finished" items are moved to resolved
+		Resolved mechanism means that it needs to be reviewed by the team
+		Close mechanism means it's been reviewed. (All finished tasks need to be moved to close by end of sprint)
+	
+	
+	v.	Meeting times:
+		Tuesday (9:30 - 11:30), Wednesday (8:30 - 12:00), Thursday (6:30 - 8:30pm), and Saturday (1:00 pm - 3:00 pm) meetings (agreed to by everyone)
+		
+	vi. Branching/merging policy
+			- Branch name syntax (NameSprint#)(feature Optional)
+			- Personal branches per work (two people can work on same branch)
+			- Don't wait 2 weeks to merge branch to main (pull request)
+				- merge to main after functional work done
+			- No working on master branch
+			- Merge conflicts - members contact the merging conflictor and discusses how to merge code
+			- At sprint end create tag on main for sprint end release version. (Corey is in charge)
+			
+			Create full walkthrough of merging/branching document
+
+		Merge conflict meeting 
+			On merge conflict basis
+	
+d.	Review and complete the details (Tasks, Acceptance Criteria, test) of all the User Stories committed for sprint 1.  Ensure to confirm on the commitments  from each member( 60 minutes ?)
+	- everyone can commit 10+ hours of work per week.
+	- Log hours, comment on work done in logged work ever other day at the latest.
+	- Commit for this lab (completed 26th oct 2016)
+
+e.	Team demo (internal ) – walk thru on Sprint 1 goals (requirements, architecture, design, code, Build / CI , testing, and task close in JIRA) … (60 minutes)
+	- present to Ben Heggie (client) Will finish on Tuesday (Nov 1st )
+	
+f.	Plan for the Sprint 1 documentations and demonstration next week. (who is doing what) and dry runs schedule/plan ( 30 mins?)
+	Presentation (everyone covers their own section)
+	Powerpoint (Marc)
+	Presentation clicker (Ben)
+	Burndown chart
+	Sprint report
+	Presentation - What we did, what we finished, what we did well, what would we do better (sprint review)
+	Demo 5 - 10 mins
+	
+	Dry run will be done the tuesday 10 am before sprint review (30 mins max)
+	Setup of sprint 2 finished by Thursday Nov 3rd
+	
+	(Completed 30 mins)
+	

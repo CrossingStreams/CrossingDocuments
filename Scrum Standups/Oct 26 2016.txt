@@ -1,0 +1,69 @@
+Scrum meeting 2016 Oct 26 (Wednesday lab):
+
+What we've done:
+
+	Marc:
+		- using stock images for rooms done
+		
+	Billy:
+		- chasing  and fleeing ai done
+		- shooting/monster artwork (done)
+		- projectile class
+		- player shooting
+		
+	Ben:
+		- add all members as users to the web server
+		- install fundamental packages necessary (Apache, postgresql, php)
+		- installing golang on game server
+		- setup golang game server
+		- created connection between gameserver and database
+		- inserted database table
+		- inserted 5 users in the database
+
+	Corey:
+		- Uploaded some user stories to jira
+		
+
+	Dan:
+		- Started work on design document
+
+What we're doing:
+
+	Marc (for Thursday):
+		- character movement
+		
+	Billy (for Thursday):
+		- ai predicting player movement for shooting
+		
+	Ben (for Thursday):
+		- tcp/ip tuning on all 3 servers.
+		- implement listener on game server to accept game clients
+
+	Corey (for Thursday):
+		- Add more user stories
+		- Patcher functionality (execute file, grab from repo
+		- Character in unity
+
+	Dan (for Thursday):
+		- Started work on design document
+		- Client setup screen (creating a local server)
+
+problems:
+
+	Marc:
+		work
+	Billy:
+		Database 
+	Ben:
+	Corey:
+		Work
+		419 presentation
+	Dan:
+		
+		
+
+After scrum issue:
+	- time estimation in jira
+	- billy movement marc
+	- bill php version ben
+	

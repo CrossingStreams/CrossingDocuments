@@ -1,0 +1,69 @@
+Scrum meeting 2016 Oct 27 (Wednesday lab):
+
+What we've done:
+
+	Marc (for Thursday):
+		- character movement
+		- transition between rooms
+		- two room layouts
+		
+	Billy (for Thursday):
+		- ai predicting player movement for shooting (mostly finished)
+		
+	Ben (for Thursday):
+		- implement listener on game server to accept game clients
+		- created dfd documents for game server and the e-commerse side of the website
+		- recreated billy's architecture layout in draw.io
+		- setup documentation repository 
+
+	Corey (for Thursday):
+		- Add more user stories (some)
+		- risk management plan
+		- Character in unity (started - learning unity)
+
+	Dan (for Thursday):
+		- menu launches outside program
+		- Client setup screen (creating a local server)
+
+What we're doing:
+
+	Marc (for Thursday):
+		- commit to repository (work done)
+		- log work and resolve user story tasks
+		- work with billy manual testing (enemy spawning, shooting, ai working)
+		
+	Billy (for Thursday):
+		- ai predicting player movement for shooting (testing, proper prediction)
+		- all ai tasks
+		- start on website
+		
+	Ben (for Thursday):
+		- tcp/ip tuning on all 2 servers.
+		- game server recieves and sends seeds.
+		- client side server application for local server
+		- move all agenda and meeting minutes to CrossingDocumentation repository
+
+	Corey (for Thursday):
+		- Character in unity (started - learning unity)
+		- Patcher functionality (execute file, grab from repo)
+		- presentation version for demo
+
+	Dan (for Thursday):
+		- Started work on design document
+		- Client setup screen (setup to join local/online servers)
+
+problems:
+
+	Marc:
+		work
+	Billy:
+	Ben:
+	Corey:
+		timebox issues
+	Dan:
+		blocking issue needs server application
+		
+		
+
+After scrum issue:
+	

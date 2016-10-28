@@ -1,0 +1,24 @@
+a.       Workable User Story Map(for at least Sprint 1) (Team)
+
+b.      Team members roles and responsibilities
+
+     i.      Build / CI (script or manual steps)
+			(Manual Build and CI (repository))
+     ii.      Each User Story details (Task Break down, estimates, test plan, and owner)
+				(completed Oct 20th 2016 - 2h of time)
+c.       User Stories assignment to team members
+
+    i.      Commitment of each team members in tasks updates in every 2 days or less
+				(Try to update every day or every 2 days at maximum)
+				
+d.      JIRA project setup and readiness for Sprint 1 (TL)
+				(completed Oct 20th 2016 - 2h of time)
+e.      Team review mechanism. (Team)
+				(Code review meeting - Thursdays after Stand ups)
+				
+f.        “Final” project report incremental update (TL and Team)
+				(Billy will start and we will edit it as we go until tuesday due date)
+				
+g.       Architecture Layout (TL and Team)
+				(Billy has posted initial design - will be reviewed)
+				(Server architecture, Stack)

@@ -1,0 +1,67 @@
+Scrum meeting 2016 Oct 22:
+
+What we've done:
+
+	Marc:
+		- installed unity
+
+	Billy:
+		- Monster artwork completed
+		- Studying unity to figure out how to do AI stuff
+		- started on AI code
+
+	Ben:
+		- Aquired servers from Youry (recieved dns and ip addresses)
+		- ensured ssh ability of servers
+		- ordered sprint backlog by priority
+		- assigned all tasks to myself
+
+	Corey:
+		- Install unity
+		- main character artwork
+		- patch GUI
+
+	Dan:
+
+
+what we're doing:
+
+	Marc (for wednesday):
+		- going through unity tutorials (binding keys and movement)
+		- applying textures (room creation)
+		
+	Billy (for wednesday):
+		- getting AI running as much as possible
+		
+		
+	Ben (for wednesday):
+		- add all members as users to the servers
+		- install fundamental packages necessary (Apache, postgresql, php)
+		- tcp/ip tuning on all 3 servers.
+		- installing golang on game servers
+		- setup golang game server
+
+	Corey (for wednesday):
+		- Patcher functionality (execute file, grab from repo
+		- Character in unity
+
+	Dan (for wednesday):
+
+
+problems:
+
+	Marc:
+		- Other pressing school work (COSC - 419)
+
+	Billy:
+		- Git submission policy and where we want.
+
+	Ben:
+	Corey:
+	Dan:
+		- 24 hr code challenge
+
+	After scrum issue:
+
+		- applying textures (billy wants to say something)
+		- design (afterthoguht)

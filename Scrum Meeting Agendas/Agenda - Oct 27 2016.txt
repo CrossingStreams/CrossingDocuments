@@ -1,0 +1,41 @@
+Scrum meeting (15 mins)
+	(completed in 15 mins, Oct 27th 2016)
+
+Architecture (30 mins)
+	James skimmed over reports and is worried we're too focused on getting things done instead of a solid architecture.
+	- We discussed architecture documentation and we will provide James with more documentation in further releases.
+		- Happy path for Overall and Game (Begining to end, shortest route possible)
+			- Activity diagram 
+		- State flow (enemies) 
+		
+	(Completed in 30 mins, Oct 27th 2016)
+		
+Presentation and demo (10 mins)
+	a.	Demo is well planned: with clear objectives (goals)
+			- Introduce ourselves
+				- Names and roles
+			- Introduce our client (Ben)
+			- discription of the actual project (5 - 10 mins) (Corey)
+				- Overview (what it is) 
+				- problem statement 
+				- Happy path (corey's beautiful drawing)
+	b.	List of tasks (user stories) based on the Sprint Backlog List
+			- burndown chart
+			- sprint report (stories completed and incomplete)
+	c.	Complete and demonstrate each user story per task break downs and acceptance criteria
+			- one person drives the demo (other people discuss what they did)
+			- think about tasks we did and how to demo them cohesively
+				- discuss this Tuesday
+	d.	Demo is functional (working as planning) without “show-stopper”
+	e.	Test plan or automated test exist
+			- show tests working.
+
+
+Team report (20 mins)
+	( Completed 30 mins, Oct 27th 2016 )
+
+Individual Team report (10 mins)	
+	( Completed 10 mins, Oct 27th 2016  )
+	
+Code review (10 mins)
+	(Completed 10 mins, Oct 27th 2016)
