@@ -1,5 +1,6 @@
 10.1.144.90 (Web Server)
 	DNS: COSC470DCentOS-2016.cis.okanagan.bc.ca
+	OS: CentOS Linux release 7.2.1511 (Core)
 	Username:	Root
 	Password: 	3_4b{<H<35gG2ue
 	
@@ -15,10 +16,16 @@
 		Username:	Root
 		Password: 	3_4b{<H<35gG2ue
 		
+		
+		
 10.1.144.91 (Game Server)
 	DNS: COSC470ACentOS-2016.cis.okanagan.bc.ca
+	OS: CentOS Linux release 7.2.1511 (Core)
 	Username: 	Root
 	Password: 	<S3LU!4*IL5azZl
 	
 	Crossing Streams Game Server:
 	IP/Port: 10.1.144.91:25565
+	
+	go version go1.7 linux/amd64
+	
