@@ -117,6 +117,11 @@ Web Server initialization:
 	
 			sudo systemctl start postgresql
 			sudo systemctl enable postgresql
+			
+			// allow webscripts and modules to connect to database servers
+			sudo chcon -R -t httpd_sys_content_rw_t /var/www/html
+			sudo setsebool -P httpd_can_network_connect_db on 
+			
 			sudo -i -u postgres
 			createuser --interactive (bwar, bspel, mdunw, cfran, datki)
 			createdb CrossingDatabase
@@ -132,7 +137,7 @@ Web Server initialization:
 		
 		// PHP INSTALL
 			sudo yum install php php-pear
-			sudo yum install php-pgsql
+			sudo yum install php-gd php-pgsql php-mbstring php-xml
 	
 	
 			// edit /etc/php.ini
