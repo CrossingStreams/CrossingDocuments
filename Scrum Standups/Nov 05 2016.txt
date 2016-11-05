@@ -1,0 +1,71 @@
+Scrum meeting 2016 Oct 22:
+
+What we've done:
+
+	Marc:
+		- demonstration/presentation (tuesday)
+		- Sick
+	Billy:
+		- Created user stories for Sprint 2
+		- demonstration/presentation (tuesday)
+		- Sprint planning meeting (thursday)
+		- Sprint 1 Retrospective (thursday)
+		- Edited all my tasks for acceptance criteria and test plans
+		- Worked on stats and database for webpage
+	Ben:
+		- demonstration/presentation (tuesday)
+		- Sprint planning meeting (thursday)
+		- Sprint 1 Retrospective (thursday)
+		- Created placeholder tasks for all stories
+		- Edited all my tasks for acceptance criteria and test plans
+		- Worked on inserting tables into database for forum (we may go with phpbb forums though)
+	Corey:
+		- Created user stories for Sprint 2
+		- demonstration/presentation (tuesday)
+		- Sprint planning meeting (thursday)
+		- Sprint 1 Retrospective (thursday)
+		- Updated placeholder tasks for some stories
+	Dan:
+		- demonstration/presentation (tuesday)
+		- Sprint planning meeting (thursday)
+		- Sprint 1 Retrospective (thursday)
+
+
+what we're doing:
+
+	Marc (for tuesday):
+		- R&R (get better)
+	Billy (for tuesday):
+		- cleaned up webpages (refactored)
+		- start powerup coding (components)
+		- start on save state (save files)
+		- Write Configuration Management for building Unity project
+	Ben (for tuesday):
+		- Working on server and client connections to setup infrastructure 
+			to handle sending state information
+		- Generating dungeon (begin work)
+	Corey (for tuesday):
+		- Edited all my tasks for acceptance criteria and test plans
+		- Updating acceptance Criteria and test plan
+		- Patcher bug fix
+		- Patcher installing proper exe files
+		- Adding sound effects to game
+	Dan (for tuesday):
+		- Coding competition
+
+problems:
+
+	Marc:
+		- Sick
+	Billy:
+		- Jenkins not setup
+		- Postgresql is challenging to work with
+	Ben:
+		- Difficulties building unity project from repository files
+	Corey:
+		- Other class assignments
+	Dan:
+		- Coding Competition
+
+	After scrum issue:
+		- Road map (for wednesday) - lab
