@@ -1,0 +1,45 @@
+COSC 470 - SCRUM Meeting - Nov. 9 2016
+
+What we've done: 
+
+	Marc : 
+		- working on team report
+		- starting on JIRA tasks (monster functionality)
+		- team report
+	Billy:
+		- Final report
+		 	re-wrote several sections & conclusion
+	Ben:
+		-Game server connection stuff
+			accepts connections from game client
+			send messages to server
+			server can send instructions to client
+		- Team Report
+	Corey:
+		- Worked on patcher
+		- game audio files gathered and code to integrate sounds added
+		- Team report
+	Dan:
+		- Bosses
+		- uploaded idea docs for bosses
+
+
+What we're working on: (for Thursday)
+
+	Marc : 
+		- Monster functionality
+	Billy:
+		- Save state functional
+	Ben:
+		- Game server connection stuff
+		- getting jenkins to pull from repo
+ 		- create standard for communication
+	Corey:
+		- Patcher bug fix
+		- store scene
+		- applying audio files to required events
+	Dan:
+		- Bosses
+
+Problems:
+	Ben: need a dedicated jenkins user account that has push/pull and admin access to all 3 repositories
