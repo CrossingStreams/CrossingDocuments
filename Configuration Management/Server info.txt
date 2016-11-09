@@ -13,8 +13,8 @@
     Password: letmein
   
 	Webmin (http://10.1.144.90:10000/)
-		Username:	Root
-		Password: 	3_4b{<H<35gG2ue
+		Username:	root
+		Password: 	letmein
 		
 		
 		
