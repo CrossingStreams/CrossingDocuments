@@ -1,0 +1,47 @@
+COSC 470 - SCRUM Meeting - Nov. 8 2016
+
+What we've done: 
+
+	Marc:
+		- R&R (get better)
+	Billy:
+		- cleaned up webpages (refactored)
+		- start powerup coding (components)
+		- start on save state (save files)
+		- Write Configuration Management for building Unity project
+		-review final document, Charts & graphs
+	Ben:
+		- Refactored documentation for final team report
+		-preliminary set-up of jenkins server (installed jenkins, permissions, goLang, mono)
+		-fixed server problems, giving sudo priveleges, re-open firewall port
+		-research into creating connections in unity and working with GoLang
+
+	Corey:
+		- Edited all my tasks for acceptance criteria and test plans
+		- Updating acceptance Criteria and test plan
+		- Patcher bug fix
+		- Adding sound effects to game
+
+	Dan:
+		-Creating boss main class, 
+		-finished adding menus to game; LAN menu (needs to be pushed)
+
+What we're working on: (for Wednesday)
+
+	Marc : 
+		-working on team report
+		-starting on JIRA tasks (monster functionality)
+	Billy:
+		-Final report
+	Ben:
+		-Game server connection stuff
+		-getting jenkins to pull from repo
+	Corey:
+		-Patcher bug fix
+		-game audio
+		-store scene
+	Dan:
+		-bosses
+
+Problems:
+	Ben: need a dedicated jenkins user account that has push/pull and admin access to all 3 repositories
