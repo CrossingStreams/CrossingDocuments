@@ -1,27 +1,27 @@
-Scrum meeting 2016 Nov 09 (Wednesday lab):
+Scrum meeting 2016 Oct 27 (Wednesday lab):
 
 What we've done:
 
-	Marc:
+	Marc (for Thursday):
 		- character movement
 		- transition between rooms
 		- two room layouts
 		
-	Billy:
+	Billy (for Thursday):
 		- ai predicting player movement for shooting (mostly finished)
 		
-	Ben:
+	Ben (for Thursday):
 		- implement listener on game server to accept game clients
 		- created dfd documents for game server and the e-commerse side of the website
 		- recreated billy's architecture layout in draw.io
 		- setup documentation repository 
 
-	Corey:
+	Corey (for Thursday):
 		- Add more user stories (some)
 		- risk management plan
 		- Character in unity (started - learning unity)
 
-	Da:
+	Dan (for Thursday):
 		- menu launches outside program
 		- Client setup screen (creating a local server)
 
