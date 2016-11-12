@@ -1,0 +1,51 @@
+COSC 470 - SCRUM Meeting - Nov. 9 2016
+
+What we've done: 
+
+	Marc : 
+		- Started on Monster functionality
+			- 2 working 80%
+	Billy:
+		- Save state functional (save and load done)
+		- Overhauled git repository to have a working repository
+		- 
+	Ben:
+		- Game server connection stuff (Clients can now connect to server)
+			- Sending and receiving messages
+ 		
+	Corey:
+		- little audio work done
+		- feeling ill
+	Dan:
+		- Worked on Bosses (in testing phase)
+
+
+What we're working on: (for Thursday)
+
+	Marc : 
+		- finish 2 and start on 3rd monster functionality
+		- Work on webpage (about us)
+
+	Billy:
+		- Menu to select save file (to do)
+		- Some/all of power ups
+
+	Ben:
+		- create standard for communication
+		- getting jenkins to pull from repo (need help from Corey)
+
+	Corey:
+		- Patcher bug fix
+		- store scene
+		- applying audio files to required events
+		- Git organization (for jenkins)
+
+	Dan:
+		- Finishing bosses
+		- Game news web page
+
+Problems:
+	Ben: need a dedicated jenkins user account that has push/pull and admin access to all 3 repositories
+	Corey: Feels ill (sick)
+	
+	
