@@ -1,54 +1,70 @@
 COSC 470 - SCRUM Meeting - Nov. 10 2016
 
+
 What we've done: 
 
 	Marc : 
-		- finish 2 and start on 3rd monster functionality
-		- Work on webpage (about us)
+		- completed all but arc monsters
+			- arc monster started but needs work (60-70% done)
 
 	Billy:
-		- Menu to select save file (to do)
-		- Some/all of power ups
+		- Menu to select save file done (wants code review)
+			- setup levels had to be done to switch between save file scene and hub
+			- this needs to be reviewed to see if it breaks anything
+		- 5 power ups finished (task done)
+			
 
 	Ben:
-		- create standard for communication
-		- getting jenkins to pull from repo (need help from Corey)
+		- created standard for communication
+		- have multiple clients connecting to each other
+		- started work on media web page
 
 	Corey:
-		- Patcher bug fix
-		- store scene
-		- applying audio files to required events
-		- Git organization (for jenkins)
+		- Patcher bug fix done
+		- Working on store scene (almost done)
+		- Git organization (for jenkins) 
+		- applying audio files to required events (done)
 
-	Dan:
-		- Finishing bosses
-		- Game news web page
+	Daniel:
+		- Finishing bosses (mostly finished)
+			- some issues (bugs)
 
 
 What we're working on: (for Tuesday)
 
 	Marc : 
-		- finish 2 and start on 3rd monster functionality
 		- Work on webpage (about us)
+		- Start on options screen
+		- Work on final report and presentation
 
 	Billy:
-		- Menu to select save file (to do)
-		- Some/all of power ups
+		- more testing for power ups
+		- finishing up prediction engine
+		- Work on final report and presentation
 
 	Ben:
-		- create standard for communication
+		- finalize server connection for multiplayer
+		- finish website media page
 		- getting jenkins to pull from repo (need help from Corey)
+		- Work on final report and presentation
 
 	Corey:
-		- Patcher bug fix
-		- store scene
-		- applying audio files to required events
-		- Git organization (for jenkins)
+		- Patcher done
+		- store scene done
+		- website
+		- Work on final report and presentation
+		- get demo working (on Tuesday)
 
-	Dan:
-		- Finishing bosses
+	Daniel:
+		- Finish bosses
 		- Game news web page
+		- Level editor (transition to next level aka Win!)
+		- Work on final report and presentation
 
 Problems:
-	
+	Marc - N/A
+	Billy - ui learning curve (not that bad once you get it)
+	Ben - Jenkins (Corey is finishing today)
+	Corey - N/A
+	Daniel - N/A
 	
