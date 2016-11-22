@@ -1,0 +1,34 @@
+COSC 470 - SCRUM Meeting - Nov. 10 2016
+
+
+What we've done: 
+
+	Marc : 	- went over user stories
+	Billy:	- halfway through login task (recieve stats and login info)
+	Ben:	- finished adding subtasks and time estimates for stories
+		- refactoring serverside coding
+	Corey:	- N/A
+	Daniel:	- finished adding subtasks and time estimates for stories
+		- started on enemy refactoring
+
+
+What we're working on:
+
+	Marc : 	- add sub tasks to boss
+		- start on boss user story
+	Billy:	- finish login task
+		- start on monster item drops
+	Ben:	- refactoring serverside code (combine crossingLobby and crossingServer code base)
+			- create go function for lobby instantiation
+		- creating a list of lobbies 
+	Corey:	- N/a
+	Daniel:	- working on enemy refactoring
+
+Problems:
+
+	Marc : 	- getting caught up on other classes
+	Billy:	- homework for 419	
+	Ben:	- midterm 404 yesterday
+	Corey:	- N/A
+	Daniel:	- N/A
+	

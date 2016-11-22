@@ -1,0 +1,9 @@
+Generate an agenda for this lab. ()
+#===============================================================
+# AGENDA
+#===============================================================
+SCRUM meeting ( 10 minutes)
+	Completed (15 mins Nov 10th 2016)
+
+Unity Build/code review	(1 hour)
+	Completed (1 hour Nov 10th 2016)
