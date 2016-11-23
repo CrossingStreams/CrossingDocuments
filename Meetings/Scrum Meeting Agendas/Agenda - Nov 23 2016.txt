@@ -1,0 +1,118 @@
+#===============================================================
+# AGENDA
+#===============================================================
+
+Scrum meeting (15 minutes)
+	Completed (15 minutes)
+
+Review the current Sprint Back Log chart (10 minutes)
+	We're logging hours!
+	Some members need to start logging hour (SAD!)
+	Story points report is static which reflects large comples stories
+	Everyone will finish a couple tasks by friday 25th 
+
+	Everybody feels their user stories are accomplisable by the end of the sprint.
+
+	Everybody feels confident our sprint 3 will lead to a considerable increment from our sprint 2 demo
+	(Completed 15 mins)
+
+Assign notes/minutes  taker and update
+	Ben Ward (still)
+
+Plan for the “trouble” items and commitment. (15 minutes)
+	No blocking issues
+	Final documentation is in place, should be easy to implement sprint 3 stuff
+	
+	Everybody has stated their continued commitment to this project.
+	(Completed 15 mins)
+
+Things (Issues) what should have been included in Sprint 2 plan and missing ( eg Technical Debt Items…) (30 mins)
+	
+	Playerhud was not planned but was implemented in sprint 2
+	
+	BUILD/CI
+		Implemented in sprint 2
+
+	Architectural diagram (UML) Road Map
+		Needs to be reworked (some more)
+		Everyone implements their UML sequence Diagrams and state diagrams (if necessary)
+		UML diagrams will be combined into a fine tuned architecture diagram
+
+	Risk table…
+		Implemented in sprint 1
+
+	Review and complete the details (Tasks, Acceptance Criteria, test) of all the User Stories committed for sprint 2.  
+	Ensure to confirm on the commitments  from each member( 60 minutes ?)
+		- dan, marc and billy will refine Tasks, Acceptance Criteria and tests for all user story sub tasks.
+		(Completed Nov 17th)
+
+	Team demo (internal ) – walk thru on Sprint 3 goals (requirements, architecture, design, code, Build / CI , testing, and task close in JIRA) … (60 minutes)
+		- Sprint 3 review and retrospective on tuesday (Nov 29th 2016)
+		- Will work on demo on Saturday
+		- Update final documentation on tuesday night (completed)
+		- Close sprint Tuesday Nov 29th at 8:00 pm
+		
+
+Plan for the Sprint 2 documentations and demonstration next week. (who is doing what) and dry runs schedule/plan ( 30 mins?)
+	
+	- Demo Dry run on Tuesday Nov 29th	
+	- Presentation (Everybody works on this)
+	- Main speaker (Ben)
+	- Burndown chart (Corey)
+	- Velocity (Corey)
+	- Individual contributuions (everybody)	
+	- Demo runner (Corey)
+	- Review and retrospective (Billy)
+	
+		Completed (20 mins Nov 23rd 2016)
+
+Information (Data) from each of the 6 steps will be extremely valuable for writing your individual report, demo, as well as 
+Review the individual contribution report template contents
+Review the final project report contents and updates.  (step9 below)
+Sprint 2 retrospective exercise
+What did we do well?
+What did we learn?
+What should we do differently next time?
+What still puzzles us? 
+
+
+Update User Story Map and Sprint 2 items.
+
+	
+
+
+
+Sprint 2 user stories  (*Changes if any from last week) with consideration from sprint 1 results (retrospective items)
+Size estimations for sprint the user story ( should not be > 8 Story points)
+
+	You should  have task break down and acceptance criteria done here.
+	Complete each Sprint 2 user story with detail task break down, acceptance criteria, and test plan.  ( plan to complete this before starting the sprint 2)
+
+	(completed Nov 3rd 2016)
+
+Team members roles and responsibilities Adjustment (if any)
+
+	No changes
+
+Build / CI approach (script or manual steps) 
+
+	Jenkins Build and CI
+	(completed Nov 10th 2016)
+
+SCRUM meeting ( 10 minutes)
+	Completed (15 mins Nov 9th 2016)
+
+Each User Story details (Task Break down, estimates, test plan, and owner)
+Documentation (project reports and technical description) 
+Team review results (Team);
+How often does the team update each other with the status (tasks assigned) ?  
+How will you handle conflicts (build, merge, coding, requirements…etc)
+Do you have a common location to track and share your communications (NOT email or Skype…etc) and tasks to do.  Use JIRA to track your new tasks discovered as needed.
+“Final” project report incremental update (TL and Team):
+Identify who own which part in your team project report.
+How does the team merge the overall work into one document?
+BE sure this person understand the details of the project and attends all the project meetings and lab.
+Architecture Layout (TL and Team) Updates
+This should be included in your team final project report and updated incrementally. It is important to describe the reasons of chances with updated diagrams (UML) and flow of operation.
+For individual report, use this diagram to identify your area of responsibilities and works.
+
