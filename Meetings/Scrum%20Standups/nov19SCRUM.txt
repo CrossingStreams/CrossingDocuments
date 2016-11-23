@@ -1,0 +1,27 @@
+SCRUM Nov. 19 / 2016
+
+What we've done:
+	Corey 	- Sprint planning meeting 
+		- added user story sub-tasks, acceptance criteria, time estimates
+	Ben 	- Sprint planning meeting 
+	Billy 	- Sprint planning meeting 
+		- gone trough user stories and added sub-tasks
+		- user story time estimates, acceptance criteria, testing plan
+	Marc 	- Sprint planning meeting
+	Daniel 	- Sprint planning meeting
+
+What we're working on (for tues):
+	Corey 	- Dungeon prefabs, (boss room, treasure room, store)
+		- start on dungeon generator
+		- book meeting rooms
+	Ben 	- Fill out user stories, sub-tasks, estimates, acceptance criteria, descriptions, testing
+		- Start working on getting UDP packets up and running for clients/server handling
+	Billy 	- try to finish: log-in screen
+	Marc 	- going through tasks, updating acceptance criteria, sub-tasks, time estimates etc.
+	Daniel	- going through tasks, updating acceptance criteria, sub-tasks, time estimates etc.
+		- refactoring enemies
+
+
+Problems/issues:
+Billy - trying to figure out how messages are handled on server.
+

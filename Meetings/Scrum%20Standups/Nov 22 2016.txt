@@ -7,7 +7,9 @@ What we've done:
 	Billy:	- halfway through login task (recieve stats and login info)
 	Ben:	- finished adding subtasks and time estimates for stories
 		- refactoring serverside coding
-	Corey:	- N/A
+	Corey:	- Started working on Dungeon Generation algorithm
+		- Updated Happy Path
+		- Designing room prefabs
 	Daniel:	- finished adding subtasks and time estimates for stories
 		- started on enemy refactoring
 
@@ -21,7 +23,8 @@ What we're working on:
 	Ben:	- refactoring serverside code (combine crossingLobby and crossingServer code base)
 			- create go function for lobby instantiation
 		- creating a list of lobbies 
-	Corey:	- N/a
+	Corey:	- Gungeon Generation
+		- Room prefabs (Store, treasure, boss)
 	Daniel:	- working on enemy refactoring
 
 Problems:
