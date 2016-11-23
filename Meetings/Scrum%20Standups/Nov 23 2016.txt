@@ -1,0 +1,33 @@
+COSC 470 - SCRUM Meeting - Nov. 23 2016
+
+
+What we've done: 
+
+	Marc : 	- added sub tasks to boss
+	Billy:	- almost finished login task
+	Ben:	- refactoring serverside code (combine crossingLobby and crossingServer code base)
+			- create go function for lobby instantiation
+		- creating a list of lobbies 
+	Corey:	- started working on level generation algorithm
+		- created new happy path
+	Daniel:	- started working on enemy refactoring
+
+What we're working on:
+
+	Marc : 	- start on boss user story
+	Billy:	- finish login task
+		- starting on monster drops
+	Ben:	- 
+	Corey:	- working on room prefabs
+		- work on dungeon generation
+	Daniel:	- fix unity issues
+		- continue working on enemy refactoring
+
+Problems:
+
+	Marc : 	- 
+	Billy:	- 	
+	Ben:	- 
+	Corey:	- 
+	Daniel:	- unity broke
+	

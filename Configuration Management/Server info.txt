@@ -9,8 +9,8 @@
 			- index.php is main landing page
 			
 	Postgresql (10.1.144.90:5432)
-    Username: postgres
-    Password: letmein
+    	Username: postgres
+    	Password: letmein
   
 	Webmin (http://10.1.144.90:10000/)
 		Username:	root
