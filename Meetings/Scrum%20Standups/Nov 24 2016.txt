@@ -1,0 +1,39 @@
+COSC 470 - SCRUM Meeting - Nov. 23 2016
+
+
+What we've done: 
+
+	Marc : 	- start on boss user story has begun (1h 30m)
+	Billy:	- Login screen finally finished
+		- Monster drops working 
+	Ben:	- Started development on Game Network protocol for client communication
+		- server list (done)
+	Corey:	- working on room prefabs
+		- work on dungeon generation
+	Daniel:	- fix unity issues (done)
+		- continue working on enemy refactoring (continuing)
+			- enemy factory (done)
+		- work on stat generation
+
+What we're working on:
+
+	Marc : 	- continue working on boss
+		- work on boss health bar
+	Billy:	- Sending stats to server
+		- Turtle boss
+	Ben:	- Continue on Game Network protocol
+	Corey:	- continue working on room prefabs and dungeon generation
+		- start on boss character
+	Daniel:	- enemy refactoring
+		- stat collection 
+		- Network menu
+
+Problems:
+
+	Marc : 	- 
+	Billy:	- overlap with Daniel on stats but it shouldn't be much of an issue	
+		- Finding out why two of his unit tests are no longer working and adjusting code/tests accordingly
+	Ben:	- Game network protocol may be too big of a task
+	Corey:	- 
+	Daniel:	-
+	

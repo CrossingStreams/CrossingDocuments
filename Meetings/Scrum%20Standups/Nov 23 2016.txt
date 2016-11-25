@@ -17,7 +17,7 @@ What we're working on:
 	Marc : 	- start on boss user story
 	Billy:	- finish login task
 		- starting on monster drops
-	Ben:	- 
+	Ben:	- Create Network protocol for client communication
 	Corey:	- working on room prefabs
 		- work on dungeon generation
 	Daniel:	- fix unity issues
