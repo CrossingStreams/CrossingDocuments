@@ -1,0 +1,57 @@
+COSC 470 - SCRUM Meeting - Nov. 26 2016
+
+
+What we've done: 
+
+	Marc : 	- Boss
+				-minor kinks to work out
+	Billy:	- (Done) Sending stats to server
+			- (Done) Turtle boss
+			- figured out unit test failing issue.
+	Ben:	- 4 players at once in a lobby (done)
+			- Movement of 4 players (continue some bugs)
+			- player instantiation done
+				- joining players instantiate all current players
+				- current players instantiates joining player
+			- Continue some more on Game Network protocol
+			- Refactored Billy's code into crossingServer code base
+	Corey:	- (done)  room prefabs
+			- continue dungeon generation
+			- started on boss character
+	Daniel:	- enemy refactoring (almost done)
+				- factory works
+					- not all enemy types work yet
+			- stat collection (continue)
+			- Network menu (continue)
+
+What we're working on:
+
+	Marc : 	- Started on the health bar (finish by tonight)
+			- Begin the clear a room task.
+	Billy:	- Finish saving stats to database
+			- UML charts
+	Ben:	- Movement of 4 players (continue some bugs)
+			- Finish shooting, enemy instantiation
+			- host state sending
+			- Finish on boss
+			- Continue some more on Game Network protocol
+			- Refactored Billy's code into crossingServer code base
+	Corey:	- finish dungeon generation
+			- finish on boss character
+			- update patcher
+	Daniel:	- enemy refactoring (continue)
+				- factory works
+					- not all enemy types work yet
+			- stat collection (continue)
+			- Network menu (continue) 
+
+Problems:
+
+	Marc : 	- 
+	Billy:	- 
+	Ben:	- Game network protocol may be too big of a task 
+				- (very big)
+	Corey:	- 
+	Daniel:	- Needs to know how to insert stats to database 
+				- from billy
+	
